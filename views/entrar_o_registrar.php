@@ -7,7 +7,7 @@
         <main class="col-12 col-md-10 offset-md-1  col-lg-8 offset-lg-2 contenido-principal">
 
 
-        <form action="<?php echo base_url();?>index.php/Welcome/enlace_registro" method="POST">
+        <form action="<?php echo base_url();?>index.php/Welcome/validaLogin" method="POST">
               <div class="form-group">
                 <label for="login">Email address:</label>
                 <input type="text" class="form-control" id="login" name="login">
