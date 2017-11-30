@@ -90,7 +90,7 @@
                     <div class="row no-gutters">
                         <div class="col-8 offset-2 col-md-10 offset-md-1 imagen-info pt-4">
                             <h3 class="text-center text-uppercase">
-                                <span class="text-lowercase d-block" style="color: blue">visita nuestra</span> nosotros
+                                <span class="text-lowercase d-block" style="color: blue">visita nuestra</span> plataforma
                             </h3>
                             <a href="#" class="btn btn-primary btn-block text-uppercase mt-4 py-3">leer más</a>
                         </div>
