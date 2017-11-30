@@ -1,29 +1,31 @@
 <div class="container">
   <br><br>
   <h2>Registro Empresa</h2>
-  <form  class="p-5 mt-5 formulario-contacto" action="<?php echo base_url();?>index.php/welcome/enviar_datos_empresa"  method="POST">
+  <form  class="p-5 mt-5 formulario-contacto" action="<?php echo base_url();?>index.php/welcome/inserta_empresa"  method="POST">
     <div class="form-group">
-      <label name="nombre-emp">Nombre de la empresa</label>
-      <input type="text" class="form-control" id="nombre-emp" name="nombre-emp" placeholder="Escribe el nombre de tu empresa">
-    </div>
-    <div class="form-group">
-      <label name="nom-jefe">Nombre de jefe de personal</label>
-      <input type="text" class="form-control" id="nom-jefe" placeholder="Escribe el nombre del jefe de personal de la empresa" name="nom-jefe">
-    </div>
-      <div class="form-group">
-      <label name="tel">Telefono de contacto</label>
-      <input type="text" class="form-control" id="tel-mov" placeholder="Telefono movil" name="tel-mov">
+      <label name="empresa">Empresa</label>
+      <input type="text" class="form-control" id="nombre_emp" name="nombre_emp" placeholder="Nombre de la empresa" required>
     </div>
 
+        <div class="form-group">
+      <label name="nombrejefe">Jefe de la empresa</label>
+      <input type="text" class="form-control" id="nomjefe" name="nomjefe" placeholder="Nombre del jefe" required>
+    </div>
+      <div class="form-group">
+      <label name="tel">Telefono Movil</label>
+      <input type="text" class="form-control" id="telmov" placeholder="Telefono movil" name="telmov" required>
+    </div>
+
+    
 
   <div class="form-group">
       <label name="login">Login</label>
-      <input type="text" class="form-control" id="login" placeholder="Login" name="login">
+      <input type="text" class="form-control" id="login" placeholder="Ingresa Login" name="login" required>
     </div>
 
   <div class="form-group">
       <label name="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
     </div>
 
 

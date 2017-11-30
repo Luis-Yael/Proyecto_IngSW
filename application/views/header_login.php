@@ -24,7 +24,7 @@
     <header class="encabezado-sitio container" >
         <div class="row justify-content-between">
               <div class="col-8 offset-2 col-lg-4 offset-lg-0">
-                  <a href="http://localhost:8080/ONE_JOB_BUENO/index.php/welcome/index">
+                  <a href="<?php echo base_url();?>index.php/welcome/index">
                     <br>
                       <img src="<?php echo base_url();?>img/logo_bueno.png" class="img-fluid mx-auto d-block">
                   </a>
@@ -33,9 +33,7 @@
               <div class="col-12 col-lg-4">
                   <nav class="sociales text-center text-md-right pt-3">
                     <br>
-                      <a href="<?php echo base_url();?>index.php/Welcome/login">
-                        <button type="button" class="btn btn-warning">Ingresar o registrarse </button>
-                      </a>
+                    
                          
                   
                   </nav>

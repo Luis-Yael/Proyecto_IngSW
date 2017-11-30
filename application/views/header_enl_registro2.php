@@ -34,7 +34,7 @@
                   <nav class="sociales text-center text-md-right pt-3">
                     <br>
                       <a href="<?php echo base_url();?>index.php/Welcome/login">
-                        <button type="button" class="btn btn-warning">Ingresar o registrarse </button>
+                
                       </a>
                          
                   

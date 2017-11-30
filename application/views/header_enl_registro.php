@@ -1,19 +1,14 @@
-<?php if($this->session->userdata('nivel_usuario')=='1'){
-  $id_candidato=$this->session->userdata('id_candidato');
- ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Pagina Candidato</title>
+    <title>Pagina Solicitante</title>
     <link rel="stylesheet" href="<?php echo base_url();?>css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url();?>css/styles.css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   </head>
   <body>
     
@@ -29,9 +24,7 @@
               <div class="col-12 col-lg-4">
                   <nav class="sociales text-center text-md-right pt-3">
                       <ul><br>
-                        <a href="<?php echo base_url();?>index.php/welcome/cerrar_sesion">
-                          <button class="btn btn-warning btn-sm">Cerrar Sesion</button>
-                          </a>
+                          
                       </ul>
                   </nav>
               </div>
@@ -46,22 +39,14 @@
                         <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/index">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/mostrar_ofertas">Ofertas de Trabajo</a>
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/registro_candidato">Registrarse como Candidato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/completar_solcand">Completar Perfil</a>
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/registro_empresa">Registrarse como Empresa</a>
                     </li>
                  
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/resultados/<?php echo $id_candidato;?>">Resultados</a>
-                    </li>
-                   
 
                 </ul>
             </div>
         </nav>
     </div><!--.navegacion-->
-    <?php }
-else
-  redirect('/Welcome/login/', 'location');
-?>

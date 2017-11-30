@@ -1,19 +1,16 @@
-<?php if($this->session->userdata('nivel_usuario')=='1'){
-  $id_candidato=$this->session->userdata('id_candidato');
- ?>
+<?php if($this->session->userdata('nivel_usuario')=='3')  {
+ ;?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Pagina Candidato</title>
+    <title>Pagina Empresa</title>
     <link rel="stylesheet" href="<?php echo base_url();?>css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url();?>css/styles.css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   </head>
   <body>
     
@@ -45,23 +42,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/index">Inicio</a>
                     </li>
+                  
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/mostrar_ofertas">Ofertas de Trabajo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/completar_solcand">Completar Perfil</a>
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/ofertas_empresas">Ofertas de Empresas</a>
                     </li>
                  
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/resultados/<?php echo $id_candidato;?>">Resultados</a>
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/mostrar_candidatos">Candidatos</a>
                     </li>
-                   
+                      <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/welcome/mostrar_empresas">Empresas</a>
+                    </li>
 
                 </ul>
             </div>
         </nav>
     </div><!--.navegacion-->
-    <?php }
+        <?php }
 else
   redirect('/Welcome/login/', 'location');
 ?>

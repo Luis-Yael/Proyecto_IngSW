@@ -39,7 +39,7 @@ function __construct()
 		$this->load->view('footer');
 
 	}
-			public function empresa(){
+	public function empresa(){
 		$this->load->view('header_empresa');
 		$this->load->view('candidato');
 		$this->load->view('footer');
@@ -187,8 +187,6 @@ public function inserta_candidato(){
                'password'=>$password);
               $this->bases_model->inserta_candidato($data);
                  redirect('\Welcome\login','refresh');
-
-    
           
       }
 

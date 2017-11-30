@@ -3,7 +3,7 @@
             <div class="row">
                     <div class="col-md-4">
                         <h3 class="text-uppercase text-center pb-4">Nosotros</h3>
-                        <p class="text-justify">Somos una empresa dedicada al reclutamiento de personas, nos caracterizamos por dar un trato justo a todos nuestros vcleintes..</p>
+                        <p class="text-justify">Somos una empresa dedicada al reclutamiento de personas, nos caracterizamos por dar un trato justo a todos nuestros clientes.</p>
                     </div>
                     <div class="col-md-4 text-center">
                         <h3 class="text-uppercase pb-4">Horario</h3> 
@@ -29,7 +29,7 @@
                     
                     <div class="w-100"></div>
                     <hr class="w-100">
-                    <p class="text-center copyright w-100">ONE JOB2017</p>
+                    <p class="text-center copyright w-100">ONE JOB 2017</p>
             </div>
     </div>
 </footer>
